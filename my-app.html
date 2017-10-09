@@ -1,0 +1,159 @@
+<!--Author: David Fernandez Sancho; GitHub: https://github.com/hacknroller--> 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Awesome App</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="./css/font-awesome.min.css">
+
+		<style type="text/css">
+
+			body {
+				position: relative;
+			}
+
+			.jumbotron {
+				background-image: url("img/img.png");
+				padding-bottom: 300px;
+			}
+
+			.jumbotron h1{
+				color:white;
+				position:relative;
+				top:70px;
+				font-size: 6em;
+			}
+
+			.jumbotron p{
+				color: white;
+				position: relative;
+				top: 70px;
+			}	
+
+			#appSummary {
+				text-align: center;
+				padding-bottom: 100px;
+			}
+
+			#cardPanel {
+				padding-bottom: 100px;
+			}
+
+			#appStoreIcon {
+				width: 200px;
+			}
+
+			#footer {
+				background-color: #384450;
+				color:white;
+				padding-top: 50px;
+				margin-top: 50px;
+				text-align: center;
+				padding-bottom: 30px;
+			}
+
+		</style>
+	</head>
+
+	<body data-spy="scroll" data-target="#navbarSupportedContent">
+		<!--NavBar-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<a class="navbar-brand" href="#">AwesomeApp</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#jumbo">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#appSummary">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#footer">Download the app</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Search">
+					<input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Search">					
+					<button class="btn btn-info my-2 my-sm-0" type="submit">Login</button>
+				</form>
+			</div>
+		</nav>			
+
+
+		<!--Jumbotron-->
+		<div class="jumbotron" id="jumb">
+			<h1 class="display-3">My Awesome App!</h1>
+			<p class="lead">This is why you should download this fantastic app!</p>
+			<p>Want to know more? We have a lot of info!</p>
+			<p class="lead">
+
+				<a class="btn btn-info btn-lg" href="#" role="button">Learn more</a>
+			</p>
+		</div>
+
+		<!--Summary-->
+		<div class="container" id="appSummary">
+				<h1>Why This App Is Awesome Again</h1>
+				<p id="lead">This app is going to be... LEGENDARY</p>
+		</div>
+
+		<!--Cards-->
+		<div class="container" id="cardPanel">
+			<div class="card-deck">
+				<div class="card">
+					<img class="card-img-top" src="img/1.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title"><i class="fa fa-gift" aria-hidden="true"></i> Trying</h4>
+						<p class="card-text">Did I say that this app is awesome? I did? Sorry! That's because it really is. Farm-to-table flexitarian post-ironic retro kogi migas kombucha literally. Copper mug twee marfa street art.</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="img/2.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title"><i class="fa fa-bar-chart" aria-hidden="true"></i> To be creative</h4>
+						<p class="card-text">Flexitarian helvetica retro, subway tile aesthetic tacos bespoke mlkshk tousled godard slow-carb PBRB. Try-hard migas XOXO trust fund vape listicle artisan banjo occupy kitsch. </p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title"><i class="fa fa-code-fork" aria-hidden="true"></i> Here</h4>
+						<p class="card-text">Try-hard migas XOXO trust fund vape listicle artisan banjo occupy kitsch. Vinyl pitchfork retro lyft. Hexagon tousled vice seitan ugh copper mug typewriter thundercats snackwave.</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+				<h2>Download the app!</h2>
+				<p class="lead">Really, why should I download this app?</p>
+				<p><a hrefo=""><img id ="appStoreIcon" src="img/App-Store-Icon.png"></a></p>
+		</div>
+
+
+
+		<script type="text/javascript">
+
+		</script>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	</body>
+</html>	
